@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login__dosen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h">
+
+
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="#71ff7a"
+        android:paddingBottom="20dp"
+
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteY="77dp"
+        tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_bl"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:shadowColor="#fff"
+            android:shadowRadius="10"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Form Login"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:hint="Enter Your Username"
+            android:background="@drawable/edittext_model_1"
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:hint="Enter Your Mail"
+            android:background="@drawable/edittext_model_1"
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_model_1"
+            android:gravity="center"
+
+            android:hint="Enter Your Password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+    android:layout_gravity="center"
+    android:layout_width="338dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+android:layout_marginRight="5dp"
+        android:background="@drawable/btn_dosen"
+        android:text="Signin"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+
+        android:background="@drawable/btn_dosen"
+        android:text="SignUp"
+        android:textColor="#fff" />
+</LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseTutorial</string>
+    <string-array name="waktu">
+        <item>08:00 - 09:45</item>
+        <item>08:00 - 10:40</item>
+        <item>09:45 - 12:25</item>
+        <item>10:40 - 12:25</item>
+        <item>10:40 - 13:20</item>
+        <item>11:35 - 13:20</item>
+        <item>12:30 - 15:10</item>
+        <item>13:25 - 15:10</item>
+        <item>13:25 - 16:05</item>
+        <item>15:15 - 17:00</item>
+        <item>16:10 - 17:55</item>
+        <item>16:10 - 18:50</item>
+    </string-array>
+</resources>

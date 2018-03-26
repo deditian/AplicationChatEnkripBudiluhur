@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0faff"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.04"
+        android:background="#0f33ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="REGISTRASI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:textColorHint="#000a51"
+        android:background="@drawable/edittext_model_2"
+        android:layout_marginBottom="7dp"
+        android:hint="Email Budi Luhur"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#000a51"
+        android:background="@drawable/edittext_model_2"
+        android:layout_marginBottom="7dp"
+        android:textAlignment="center"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000a51"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Nomor Telepon"
+        android:inputType="phone"
+        android:background="@drawable/edittext_model_2"
+        android:layout_marginBottom="7dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#000a51"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_model_2"
+        android:layout_marginBottom="7dp" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:background="#0f33ff"
+        android:text="OK"
+        android:textColor="#fff" />
+
+</LinearLayout>

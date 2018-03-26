@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0faff"
+    android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0.04"
+                android:background="#0f33ff"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="10dp"
+                android:text="Form Kelas Pengganti"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#fff" />
+
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/edtMatkul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/edittext_model_2"
+                android:ems="10"
+                android:hint="Mata Kuliah"
+
+                android:textAlignment="center"
+                android:textColorHint="#000a51" />
+
+    <Spinner
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="7dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:entries="@array/waktu"
+        android:id="@+id/spin_waktu"
+        android:background="@drawable/edittext_model_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/edtTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/edittext_model_2"
+        android:ems="10"
+        android:hint="Tanggal"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColorHint="#000a51" />
+
+    <Button
+       android:layout_marginTop="10dp"
+        android:id="@+id/btnIsiOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_weight="0.04"
+        android:background="#0f33ff"
+        android:text="OK"
+        android:textColor="#fff" />
+
+
+
+
+</LinearLayout>
